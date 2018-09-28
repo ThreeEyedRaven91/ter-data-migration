@@ -1,0 +1,35 @@
+{
+  "name": "ter-data-migration",
+  "version": "0.1.7",
+  "description": "Three-Eyed Raven's library allow to migrate, snapshot and restore database",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ThreeEyedRaven91/ter-data-migration.git"
+  },
+  "bin": {
+    "ter-data-migration": "index.js"
+  },
+  "keywords": [
+    "data",
+    "migration",
+    "data",
+    "backup",
+    "data",
+    "restore"
+  ],
+  "preferGlobal": true,
+  "author": "ThreeEyedRaven91",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ThreeEyedRaven91/ter-data-migration/issues"
+  },
+  "homepage": "https://github.com/ThreeEyedRaven91/ter-data-migration#readme",
+  "dependencies": {
+    "mysql": "^2.16.0",
+    "sequelize-auto": "^0.4.29"
+  }
+}
